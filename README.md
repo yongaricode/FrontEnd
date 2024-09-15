@@ -7,8 +7,10 @@
 > 하단 그림 참고하여 저부분 체크표시 해제!
 <img width="400" alt="Screenshot 2024-09-15 at 3 55 26 PM" src="https://github.com/user-attachments/assets/d4535b1b-4cfc-4cf3-9e0a-c7b57d3550c4">
 
-> Fork한 본인 레포지토리가 이런식으로 된거면 됩니다!
+> Fork한 본인 레포지토리가 이런식으로 된거면 잘 된거에요!
 <img width="400" alt="Screenshot 2024-09-15 at 3 58 29 PM" src="https://github.com/user-attachments/assets/6610341e-a705-41c3-a43a-24b8714c378b">
+
+<br></br>
 
 3. 본인의 레포로 Fork한 파일을 Clone해서 각자 로컬 저장소에 저장한다!!
 4. 각자 로컬 저장소에서 과제 코드를 작성하고, 다 작성했거나 중간중간 코드 임시저장하려면 **본인의 Fork한 리모트 레포지토리의 본인 Branch에** Push하여 올린다! **(꼭 본인 브랜치에!!!!)**
