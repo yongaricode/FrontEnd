@@ -1,7 +1,7 @@
 # 📌 FrontEnd Session 과제 Repository!😇
 
 ### ✏️ 멤버별 깃허브 세팅 & 과제 업로드 방법
-1. 각자 이름별로 Git Branch를 판다! (ex: FE-김기연)
+1. 각자 이름별로 Git Branch를 판다! (ex: FE-김기연, 첫 주차는 FE-김기연-Session1으로)
 2. 각자 현재 이 GDG-on-Campus-Ewha-2024/FrontEnd 레포지토리를 본인의 원격 레포지토리로 Fork 한다! (**이때 main만 가져오지말고 전체 브랜치 가져오게 설정!)
 3. 각자 본인의 원격 레포지토리에서 리모트 레포지토리에 만든 본인의 브랜치와 똑같은 이름의 브랜치를 본인이 Fork한 레포지토리에 생성한다!
 4. 본인의 레포로 Fork한 파일을 Clone해서 각자 로컬 저장소에 저장한다!!
