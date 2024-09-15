@@ -5,7 +5,7 @@
 2. 각자 현재 이 GDG-on-Campus-Ewha-2024/FrontEnd 레포지토리를 본인의 원격 레포지토리로 Fork 한다! 
 > **이때 main만 가져오지말고 전체 브랜치 가져오게 설정!
 > 하단 그림 참고하여 저부분 체크표시 해제!
-<img width="400" alt="Screenshot 2024-09-15 at 3 55 26 PM" src="https://github.com/user-attachments/assets/d4535b1b-4cfc-4cf3-9e0a-c7b57d3550c4">
+<img width="400" alt="Screenshot 2024-09-15 at 3 55 26 PM" src="https://github.com/user-attachments/assets/d075a412-b6cc-4077-9699-4b1331ad8398">
 
 > Fork한 본인 레포지토리가 이런식으로 된거면 잘 된거에요!
 <img width="400" alt="Screenshot 2024-09-15 at 3 58 29 PM" src="https://github.com/user-attachments/assets/6610341e-a705-41c3-a43a-24b8714c378b">
