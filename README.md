@@ -7,7 +7,7 @@
 > 하단 그림 참고하여 저부분 체크표시 해제!
 <img width="400" alt="Screenshot 2024-09-15 at 3 55 26 PM" src="https://github.com/user-attachments/assets/d075a412-b6cc-4077-9699-4b1331ad8398">
 
-> Fork한 본인 레포지토리가 이런식으로 된거면 잘 된거에요!
+> Fork한 본인 레포지토리가 이런식으로 본인이 만든 본인 브랜치가 있으면 잘 된거에요!
 <img width="400" alt="Screenshot 2024-09-15 at 3 58 29 PM" src="https://github.com/user-attachments/assets/6610341e-a705-41c3-a43a-24b8714c378b">
 
 <br></br>
