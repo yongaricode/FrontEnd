@@ -1,4 +1,4 @@
-# 📌 FrontEnd Session 과제 Repository!😇
+# 📌 GDG FrontEnd Session 과제 Repository!😇
 
 ### ✏️ 멤버별 깃허브 세팅 & 과제 업로드 방법
 1. 각자 이름별로 Git Branch를 판다! (ex: FE-김기연, 첫 주차는 FE-김기연-Session1으로)
