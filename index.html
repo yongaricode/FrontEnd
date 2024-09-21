@@ -9,6 +9,71 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    
+    <!-- body의 구성: header, main, footer -->
+    <header>
+      <h1>다지의 Simple Blog</h1>
+      <nav>
+        <ul>
+          <!-- stylesheet에서 list-style: none으로 지정했으므로 불린 표기가 없다. -->
+          <!-- stylesheet에서 li 태그를 display: inline으로 지정했으므로 한 줄에 표기된다. -->
+          <li><a href="#home">Home</a></li>
+          <!-- a태그 페이지 내 이동 구현: href="#tag", id ="tag" //name은 안 되는 이유? -->
+          <li><a href="#post">Post</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="home">
+      <section id="about">
+        <h2>Welcome to My Blog!</h2>
+        <p>안녕하세요! GDSC Frontend Part 멤버 김다지입니다!</p>
+      </section>
+      <section id="post">
+        <article>
+          <h2>블로그 포스트 #1</h2>
+          <p>
+            Wuh, 요즘에는 별별별 (See that?) 이런저런 별별별 (쯧쯧) 하여튼간
+            별별 (Twinkle little little star) 그래, 난 별별별
+          </p>
+        </article>
+        <article>
+          <h2>블로그 포스트 #2</h2>
+          <p>
+            Wuh, 요즘에는 별별별 (See that?) 이런저런 별별별 (쯧쯧) 하여튼간
+            별별 (Twinkle little little star) 그래, 난 별별별
+          </p>
+        </article>
+      </section>
+      <aside>
+        <h2>읽어보면 좋을 자료!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org/ko/docs/Web/HTML"
+              target="_blank"
+              >자료 1
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              target="_blank"
+              >자료 2
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/ko/docs/Web/JavaScript"
+              target="_blank"
+              >자료 3
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <footer id="contact">
+      <p>Contact(Email): thefirstfruit416@gmail.com</p>
+    </footer>
   </body>
 </html>
