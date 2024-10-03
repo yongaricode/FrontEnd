@@ -18,7 +18,3 @@
 5. 모두 구현하여 최종코드를 작성했다면, **이 Remote Repository의 본인 브랜치**에 Push Request를 올린다!! (main에 PR올리면 안됨!)
 6. 각 주차에 해당하는 과제 내용은 과제설명/n주차과제/n주차과제.md 의 내용을 보면 됩니다 :)
 7. 궁금한 것은 언제나 카톡 혹은 디스코드로 물어보세요! (디코 권장!!)
-
-### 3주차 과제
-
-<img src="../FrontEnd/netfilx_cloneCoding.png">
