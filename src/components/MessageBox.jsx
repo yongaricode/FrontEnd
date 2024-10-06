@@ -1,3 +1,5 @@
+// MessageBox component
+
 const MessageBox = () => {
   return <div></div>;
 };
