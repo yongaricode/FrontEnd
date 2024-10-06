@@ -2,16 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Global CSS 파일에 font-face 설정 */
+@font-face {
+  font-family: "Changwon";
+  src: url("/public/fonts/ChangwonDangam.otf");
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "Hakyo";
+  src: url("/public/fonts/Hakgyoansim.otf");
 }
 
 body {
