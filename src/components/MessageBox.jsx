@@ -1,6 +1,5 @@
 // MessageBox component
 import Image from "next/image";
-import jingleBell from "../../public/images/jingleBell.png";
 import ribbon from "../../public/images/ribbon.png";
 
 const MessageBox = () => {
