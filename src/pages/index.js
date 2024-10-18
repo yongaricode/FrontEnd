@@ -1,6 +1,3 @@
-// 아래의 import문으로 next/image의 Image 컴포넌트를 사용할 수 있습니다.
-// import Image from "next/image"
-
 import MessageBox from "@/components/MessageBox";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
