@@ -1,9 +1,7 @@
-import Image from "next/image";
 import MessageBox from "@/components/MessageBox";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import instance from "@/api/instance";
-import Cookies from "js-cookie";
 
 interface Message {
   fromName: string;
@@ -13,13 +11,12 @@ interface Message {
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
   const router = useRouter();
-  // const userName = Cookies.get("userName");
-  const userName = "용가리";
+  const toName = "용가리";
 
   async function getMessageData() {
     try {
       const response = await instance.get<Message[]>(
-        `/messages?name=${userName}`
+        `/messages?name=${toName}`
       );
       if (response.status === 200) {
         const fetchedMsg = response.data;
@@ -41,7 +38,7 @@ export default function Home() {
         연말 편지 우체통
       </h1>
       <h3 className="mt-[30px] font-bold text-[20px] font-['TTLaundryGothicB']">
-        💌 {userName}님의 연말 편지 우체통으로 {messages.length}건의 편지가
+        💌 {toName}님의 연말 편지 우체통으로 {messages.length}건의 편지가
         도착했어요!
       </h3>
       <button

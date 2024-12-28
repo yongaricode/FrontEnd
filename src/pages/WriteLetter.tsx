@@ -2,12 +2,12 @@ import Button from "../components/Button";
 import Letter from "../components/Letter";
 import instance from "../api/instance";
 import { useState } from "react";
-import Cookies from "js-cookie";
+import { useUserName } from "@/hooks/useUserInfo";
 
 export default function WriteLetter() {
   const [content, setContent] = useState<string>("");
   const toName = "용가리";
-  const userName = Cookies.get("userName");
+  const name = useUserName();
 
   const [wordCount, setWordCount] = useState<number>(0);
 
@@ -24,7 +24,7 @@ export default function WriteLetter() {
 
     const postData = {
       toName: toName,
-      fromName: userName,
+      fromName: name,
       message: content,
       type: "뭐를 써야되지...?",
     };
@@ -59,7 +59,7 @@ export default function WriteLetter() {
         <section className="flex justify-between">
           <span className="text-gray-500">{wordCount}/100</span>
           <span className="font-['TTLaundryGothicB'] text-[25px] mt-3">
-            From. {userName}
+            From. {name}
           </span>
         </section>
       </section>

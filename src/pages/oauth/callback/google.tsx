@@ -2,14 +2,14 @@ import instance from "@/api/instance";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Cookies from "js-cookie";
+import { useUserLogin } from "@/hooks/useUserInfo";
 
 const googleLogin = () => {
   const router = useRouter();
   const { code } = router.query;
+  const { setIsLogin } = useUserLogin();
 
   const getUserInfo = async () => {
-    if (!code) return;
-
     try {
       const response = await instance.get(
         `/oauth/callback?code=${code}&provider=google`
@@ -20,6 +20,7 @@ const googleLogin = () => {
         });
         const name = response.data.name;
         Cookies.set("userName", name || "익명", { expires: 1 });
+        setIsLogin(true);
         router.push("/");
       }
     } catch (error) {
@@ -30,6 +31,7 @@ const googleLogin = () => {
   };
 
   useEffect(() => {
+    if (!code) return;
     getUserInfo();
   }, [code]);
 
